@@ -2,11 +2,11 @@ const val myAge: Int = 18
 var averageAge: Double = 30.0
 averageAge = (averageAge + myAge) / 2
 
-const val testNumber: Int = 7
+const val testNumber: Int = 8
 val evenOdd: Int = testNumber % 2
-
+//its even
 var answer: Int = 0
 answer += 1
 answer += 10
 answer *= 10
-answer = answer(3)
+answer = answer.ushr(3)
